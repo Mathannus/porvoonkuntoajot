@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  text-align: left;
+}
+.App-header, .App-footer, .App-navigation, .App-main {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.section { height: 100vh; }
+
+
+.App-intro {
+  font-size: large;
+}
+
+.contentBox {
+  padding: 10px 10px;
+  background-color: white;
+  width:80%;
+  margin-left: 20px;
+/*
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 20px; */
+}
+
+
+@media screen and (min-width:768px) {
+
+  .contentBox {
+    padding: 20px 40px;
+    background-color: white;
+    width:50%;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+
+}

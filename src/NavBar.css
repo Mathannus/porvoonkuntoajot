@@ -1,0 +1,14 @@
+.App-navigation {
+  flex: 1 1 auto;
+  align-items: center;
+  width:100%;
+  background-color: #EA333B;
+/*  background-color: gray;*/
+  text-align: center
+}
+.App-navigation a {
+  padding: 10px 10px 0px 10px;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: white;
+}

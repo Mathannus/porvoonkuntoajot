@@ -1,0 +1,24 @@
+.Tulokset {
+  padding: 0px 10px;
+  background-image: url("img/bg7.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.sarjalinkit a {
+  padding-right: 10px;
+}
+
+@media only screen and (min-width:768px) {
+  .Tulokset {
+    font-size: 1.4em;
+  }
+  .Tulokset {
+    padding: 20px 40px;
+  }
+  .restbl {
+    font-size: 16px;
+  }
+}
