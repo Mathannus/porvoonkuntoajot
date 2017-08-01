@@ -13,31 +13,16 @@ section {
   height: 80vh;
 }
 
-/*
-.main-page {
-  font-size: 0.9em;
-}
-*/
-
 .main-page h1,h2 {
   margin: 0px;
-  padding-bottom: 10px;
+  padding: 10px 0px;
 }
-/*
-h1 {
-  font-size: 1.2em;
-}
-*/
+
 ul {
   list-style: none;
   padding-left: 20px;
 }
 
-/*
-.main-page div {
-  padding: 20px 0px;
-}
-*/
 section#top {
   background-image: url("img/bg1.jpg");
   background-position: right center;
@@ -58,8 +43,6 @@ section#ilmoittautuminen {
 .price {
   text-align: right;
 }
-
-
 
 @media only screen and (min-width:768px) {
   .main-page {

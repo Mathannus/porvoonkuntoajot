@@ -17,7 +17,11 @@ class InstructionsPage extends Component {
           <h2>LÄHTÖ JA MATKAT</h2>
           Lähtö klo 10.00 - pääsarja 110 km ja lähtö  klo 10.10 - kuntosarja 55 km
           Lähtö tapahtuu ohjatusti ajamalla etuauton takana (noin 20 km/h) ja vapaa vauhti alkaa noin 2 km:n ajon jälkeen Saksalantiellä.
-          Pääsarjassa on neljä Akilles Road Academyn vetämää ohjattua nopeusryhmää 26, 28, 30 ja 32 km/h. Ryhmien kokoontumispaikat on merkitty lähtöalueelle.
+
+          <h2>KESKINOPEUSRYHMÄT</h2>
+          Pääsarjassa on neljä Akilles Road Academyn vetämää ohjattua nopeusryhmää 26, 28, 30 ja 32 km/h.
+          26 ja 28 km/h ryhmät pysähtyvät molemmilla huoltopisteillä, 30 km/h ryhmä ensimmäisellä ja 32 km/h ryhmä ei pysähdy lainkaan. Tauot sisältyvät tavoiteltuun aikaan.
+          Ryhmien kokoontumispaikat on merkitty lähtöalueelle. Keskinopeusryhmien vetäjät tunnistat Akilleen ajoasusta ja selässä olevasta ryhmän nopeutta indikoivasta numerosta.
 
           <h2>NUMEROIDEN JA AJANOTTOSIRU-TUNNISTEIDEN JAKO</h2>
           Numeron ja pyörään kiinnitettävän ajanottosirun saa kilpailutoimistosta. Numero kiinnitetään oikeaan kylkeen ja alaselkään hakaneuloilla ja ajanottosiru kiinnitetään ohjainkannattimeen järjestäjän antamalla nippusiteellä. Numerot ja ajanottosiru tulee palauttaa ajon jälkeen kuntoajotoimistoon toimistoon. Palautettuja numerolappuja ja sirua vastaan saa Kuntoajo-mitalin. Palauttamattomasta numerosta ja ajanottosirusta veloitetaan osallistujaa jälkikäteen 50 eurolla.  
@@ -31,9 +35,9 @@ class InstructionsPage extends Component {
           <h2>PALKINNOT</h2>
           Maalintulon jälkeen jokainen osallistuja saa mitalin. Mitali luovutetaan osallistujalle, kun kilpailunumerot ja ajanottosiru on palautettu.
           Pääsarjan paras mies ja nainen palkitaan 100 €:n rahapalkinnolla ja kuntosarjan paras mies ja nainen palkitaan 50 €:n rahapalkinnolla. Kaikkien osallistujien kesken arvotaan monia pyöräilyaiheisia palkintoja sekä pääpalkintona 300 €:n lahjakortti Porvoon Pyöräkeskukseen.
-          .
+
           <h2>HUOLTO JA PESEYTYMINEN</h2>
-          Pääsarjan reitin varrella on 2 huoltopistettä ja kuntosarjan reitillä 1 huoltopiste. Huoltopisteillä tarjoillaan vettä, urheilujuomaa, banaania, rusinoita, suolakurkkua. Kaikille osallistujille on ajon jälkeen mahdollisuus peseytymiseen. Ajon jälkeen tarjotaan maittava Willitomaatti Cateringin valmistama kotiruoka-ateria Amiston ruokasalissa  
+          Pääsarjan reitin varrella on 2 huoltopistettä ja kuntosarjan reitillä 1 huoltopiste. Huoltopisteillä tarjoillaan vettä, urheilujuomaa, banaania, rusinoita, suolakurkkua. Kaikille osallistujille on ajon jälkeen mahdollisuus peseytymiseen. Ajon jälkeen tarjotaan maittava Willitomaatti Cateringin valmistama kotiruoka-ateria Amiston ruokasalissa.
 
           <h2>ENSIAPU</h2>
           Maalialueella on ensiapupiste.

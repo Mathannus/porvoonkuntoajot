@@ -1,0 +1,1 @@
+import React, {Component} from 'react'import './Tulokset.css'class Tulokset2017 extends Component {  render = () => (<div className="Tulokset">  <div className="contentBox">    <h2 className="otsikko">Tulokset 6.8.2017</h2>    Vuoden 2017 tulokset julkaistaan täällä heti niiden valmistuttua.  </div></div>  )}export default Tulokset2017
