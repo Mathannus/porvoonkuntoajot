@@ -16,18 +16,22 @@ class RouteMapPage extends Component {
             jokilaaksoissa ja maalaismaisemassa.
           </div>
           <div className="route">
-          <h2>Lyhyt kierros</h2>
-          Lyhyempi on 55 kilometriä ja reittinä helpompi ja sopii kaikille kuntoilijoille.<br/><br/>
-          <a href="https://ridewithgps.com/routes/7582882">Linkki "Ride with GPS"-palveluun</a>
-          <h3>Kartta</h3>
-          <img src={mapImgShort} alt="Lyhyt kierros"/>
+            <h2>Lyhyt kierros</h2>
+            Lyhyempi on 55 kilometriä ja reittinä helpompi ja sopii kaikille kuntoilijoille.<br/><br/>
+            <a href="https://ridewithgps.com/routes/7582882">Linkki "Ride with GPS"-palveluun</a>
+            <h3>Kartta</h3>
+            <div className="map-container">
+              <img src={mapImgShort} alt="Lyhyt kierros"/>
+            </div>
           </div>
           <div className="route">
             <h2>Pitkä kierros</h2>
             Pidempi reitti on 110 kilometriä ja luonteeltaan mäkinen ja vaativa.<br/><br/>
             <a href="https://ridewithgps.com/routes/7582814">Linkki "Ride with GPS"-palveluun</a>
             <h3>Kartta</h3>
-            <img src={mapImgLong} alt="Pitkä kierros"/>
+            <div className="map-container">
+              <img src={mapImgLong} alt="Pitkä kierros"/>
+            </div>
           </div>
         </div>
       </div>

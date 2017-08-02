@@ -1,10 +1,10 @@
 .mapPage {
-/*  display: flex;
+display: flex;
   flex-direction: column;
   padding: 20px 40px;
   position: relative;
   overflow: hidden;
-*/
+
   background-image: url("img/bg5.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -15,15 +15,18 @@
 /*  display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-*/  
+*/
 }
 
 .map-container {
+  /*
   position: relative;
   padding-bottom: 90%;
-/*  padding-top: 35px; */
   height: 0;
-  overflow: hidden;
+  */
+  width: 100%;
+  height: auto;
+/*  overflow: hidden;*/
   display: flex;
   flex: 1 1 auto;
 }
@@ -33,7 +36,10 @@ section {
   height: 80vh;
 }
 img {
-  width: 100%;
+/*  max-width: 100%;
+  height: auto;
+  display: block;
+  */
 }
 /*
 h1 {
