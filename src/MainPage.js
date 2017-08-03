@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './MainPage.css'
 
 class MainPage extends Component {
@@ -10,6 +11,8 @@ class MainPage extends Component {
         <div className="filler-div">&nbsp;</div>
         <div className="contentBox">
           <h1>PORVOON KUNTOAJOT 6.8. 2017 KLO 10.00</h1>
+
+          <p style={{fontWeight: "bold"}}>Lista ennakkoon ilmoittautuneista löydät <Link to="/lahtolista">tästä</Link></p>
           Ajajilta suurta kiitosta saaneissa Porvoon Kuntoajoissa on kaksi eri matkaa:
           <ul>
             <li>Pidempi reitti on 110 kilometriä ja luonteeltaan mäkinen ja vaativa.</li>

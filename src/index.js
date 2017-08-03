@@ -6,6 +6,7 @@ import MainPage from './MainPage'
 import RouteMapPage from './RouteMapPage'
 import Tulokset2016 from './Tulokset2016'
 import Tulokset2017 from './Tulokset2017'
+import LahtoLista from './LahtoLista'
 import registerServiceWorker from './registerServiceWorker'
 import {
   BrowserRouter as Router,
@@ -26,6 +27,7 @@ ReactDOM.render(
     <Route path="/pitka-kierros" render={ props => (<RouteMapPage title="Pitkä kierros 110km" routeId="7582814"/>)}/>
     <Route path="/tulokset/2016" component={Tulokset2016}/>
     <Route path="/tulokset/2017" component={Tulokset2017}/>
+    <Route path="/lahtolista" component={LahtoLista}/>
   </App>
 
 
