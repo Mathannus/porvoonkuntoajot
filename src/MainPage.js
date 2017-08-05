@@ -12,6 +12,13 @@ class MainPage extends Component {
         <div className="contentBox">
           <h1>PORVOON KUNTOAJOT 6.8. 2017 KLO 10.00</h1>
 
+          <p style={{fontWeight: "bold"}}>
+          Ennätyksellisen osanottajajoukon keräävässä Porvoon Kuntoajossa huomenna 6.8 klo 10.00 vielä tilaa jälki-ilmoittautuneille.<br/>Kaikki paikalle tulevat mahtuvat mukaan! Tervetuloa!
+          </p>
+          <p>
+          Huominen sääennuste lupaa lähes optimaalista ajosäätä, pilvipoutaa ja lämpötila tasainen 17 asetta. Lähdön hetkellä pienen pieni mahdollisuus, että tulee pieni virkistävä sade, mutta sen jälkeen pelkkää poutaa.
+          </p>
+
           <p style={{fontWeight: "bold"}}>Lista ennakkoon ilmoittautuneista löydät <Link to="/lahtolista">tästä</Link></p>
           Ajajilta suurta kiitosta saaneissa Porvoon Kuntoajoissa on kaksi eri matkaa:
           <ul>

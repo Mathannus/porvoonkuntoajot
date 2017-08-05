@@ -22,7 +22,6 @@ export default class LahtoLista extends Component {
           <tr className="aa"><td >2</td><td >10.00   </td><td ></td><td >Pohjantähti Pyry</td><td >Akilles</td></tr>
           <tr className="aa"><td >3</td><td >10.00   </td><td ></td><td >Ropponen Eetu</td><td >Akilles</td></tr>
           <tr className="aa"><td >4</td><td >10.00   </td><td ></td><td >Mielikäinen Otto</td><td >Akilles</td></tr>
-          <tr className="aa"><td >5</td><td >10.00   </td><td ></td><td >Pohjantähti Pyry</td><td >Akilles</td></tr>
           <tr className="aa"><td >6</td><td >10.00   </td><td ></td><td >Vainio Roope</td><td >Akilles</td></tr>
           <tr className="aa"><td >7</td><td >10.00   </td><td ></td><td >Vainio Veeti</td><td >Akilles</td></tr>
           <tr className="aa"><td >8</td><td >10.00   </td><td ></td><td >Öhman Samuli</td><td >Akilles</td></tr>
@@ -211,7 +210,7 @@ export default class LahtoLista extends Component {
           <tr className="aa"><td >178</td><td >10.10   </td><td ></td><td >Toppari Matti</td><td ></td></tr>
           <tr className="aa"><td >179</td><td >10.10   </td><td ></td><td >Toppari Oskari</td><td ></td></tr>
           <tr className="aa"><td >180</td><td >10.10   </td><td ></td><td >Heiskanen Risto</td><td ></td></tr>
-          <tr className="aa"><td >181</td><td >10.10   </td><td ></td><td >Räsänen Juha</td><td ></td></tr>
+          <tr className="aa"><td >181</td><td >10.10   </td><td ></td><td >Räsänen Juha</td><td >Akilles</td></tr>
           <tr className="aa"><td >182</td><td >10.10   </td><td ></td><td >Leppäaho Mika</td><td >Velo Saimaa</td></tr>
           <tr className="aa"><td >183</td><td >10.10   </td><td ></td><td >Grönholm Jens</td><td ></td></tr>
           <tr className="aa"><td >184</td><td >10.10   </td><td ></td><td >Hakkarainen Mikko</td><td >Team Wheelsuckers</td></tr>
@@ -244,7 +243,7 @@ export default class LahtoLista extends Component {
       <tr className="aa"><td >199</td><td >10.10   </td><td ></td><td >Luoma Eija</td><td >Akilles RA</td></tr>
       <tr className="aa"><td >200</td><td >10.10   </td><td ></td><td >Kiiveri Emmi</td><td ></td></tr>
       <tr className="aa"><td >201</td><td >10.10   </td><td ></td><td >Kesäniemi Outi</td><td ></td></tr>
-      <tr className="aa"><td >202</td><td >10.10   </td><td ></td><td >Aho Kati</td><td ></td></tr>
+      <tr className="aa"><td >202</td><td >10.10   </td><td ></td><td >Aho Kirsi</td><td >Akilles</td></tr>
       <tr className="aa"><td >203</td><td >10.10   </td><td ></td><td >Antell Tarja</td><td ></td></tr>
       <tr className="aa"><td >204</td><td >10.10   </td><td ></td><td >Pesonen Elina</td><td ></td></tr>
       <tr className="aa"><td >205</td><td >10.10   </td><td ></td><td >Luoto Suvi</td><td ></td></tr>
