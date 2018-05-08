@@ -15,12 +15,13 @@ class InstructionsPage extends Component {
           Kilpailutoimisto on Amiston pääoven edessä ulkona. Kilpailutoimisto on avoinna klo 8.30 alkaen.
 
           <h2>LÄHTÖ JA MATKAT</h2>
-          Lähtö klo 10.00 - pääsarja 110 km ja lähtö  klo 10.10 - kuntosarja 55 km
-          Lähtö tapahtuu ohjatusti ajamalla etuauton takana (noin 20 km/h) ja vapaa vauhti alkaa noin 2 km:n ajon jälkeen Saksalantiellä.
+          <p>Pääsarja 110 km lähtö klo 10.00</p>
+          <p>Kuntosarja 55 km lähtö klo 10.10</p>
+          <p>Lähtö tapahtuu ohjatusti ajamalla etuauton takana (noin 20 km/h) ja vapaa vauhti alkaa noin 2 km:n ajon jälkeen Saksalantiellä.</p>
 
           <h2>KESKINOPEUSRYHMÄT</h2>
-          Pääsarjassa on neljä Akilles Road Academyn vetämää ohjattua nopeusryhmää 26, 28, 30 ja 32 km/h.
-          26 ja 28 km/h ryhmät pysähtyvät molemmilla huoltopisteillä, 30 km/h ryhmä ensimmäisellä ja 32 km/h ryhmä ei pysähdy lainkaan. Tauot sisältyvät tavoiteltuun aikaan.
+          Pääsarjassa on neljä Akilles Road Academyn vetämää ohjattua nopeusryhmää 26, 28, 30 ja 32+ km/h.
+          26 ja 28 km/h ryhmät pysähtyvät molemmilla huoltopisteillä, 30 km/h ryhmä ensimmäisellä ja 32+ km/h ryhmä ei pysähdy lainkaan. Tauot sisältyvät tavoiteltuun aikaan.
           Ryhmien kokoontumispaikat on merkitty lähtöalueelle. Keskinopeusryhmien vetäjät tunnistat Akilleen ajoasusta ja selässä olevasta ryhmän nopeutta indikoivasta numerosta.
 
           <h2>NUMEROIDEN JA AJANOTTOSIRU-TUNNISTEIDEN JAKO</h2>
@@ -40,7 +41,8 @@ class InstructionsPage extends Component {
           Pääsarjan reitin varrella on 2 huoltopistettä ja kuntosarjan reitillä 1 huoltopiste. Huoltopisteillä tarjoillaan vettä, urheilujuomaa, banaania, rusinoita, suolakurkkua. Kaikille osallistujille on ajon jälkeen mahdollisuus peseytymiseen. Ajon jälkeen tarjotaan maittava Willitomaatti Cateringin valmistama kotiruoka-ateria Amiston ruokasalissa.
 
           <h2>ENSIAPU</h2>
-          Maalialueella on ensiapupiste.
+          Maalialueella on ensiapupiste. Lähin sairaala on Porvoon sairaala (Sairaalantie 1, 06150 Porvoo) puh 116117.
+
 
           <h2>MUUTA HUOMIOITAVAA</h2>
           Pääsarjassa suositellaan käytettäväksi maantiepyörää, kuntosarjassa kalusto on vapaa. Pyöräilykypärä on pakollinen. Järjestäjä ei vakuuta ajajia erikseen. Aika-ajotangot ovat kielletty.

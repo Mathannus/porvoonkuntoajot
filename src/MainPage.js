@@ -10,7 +10,9 @@ class MainPage extends Component {
       <div className="mainPage">
         <div className="filler-div">&nbsp;</div>
         <div className="contentBox">
-          <h1>PORVOON KUNTOAJOT LAUNTAINA 18.8. 2017 KLO 10.00</h1>
+          <h1>PORVOON KUNTOAJOT 12.8. 2018 KLO 10.00</h1>
+          Tervetuloa polkemaan idyllinen kuntoajo Itä-Uudenmaan kauniisiin jokilaaksoihin
+          ja kumpuileviin maalaismaisemiin sunnuntaina 12.8.2018
 
           Ajajilta suurta kiitosta saaneissa Porvoon Kuntoajoissa on kaksi eri matkaa:
           <ul>
@@ -19,9 +21,7 @@ class MainPage extends Component {
           </ul>
           <p>
             Kaikkien sarjojen lähdöt toteutetaan yhteislähtöinä, joten tunnelmaa on suurten
-            ajojen tyyliin lähdöstä maaliin asti.<br/>
-            Kilpailureitit kulkevat kauniissa ja mäkisessä itäuusimaalaisessa
-            jokilaaksoissa ja maalaismaisemassa.
+            ajojen tyyliin lähdöstä maaliin asti.
           </p>
           <p>
             Varaa paikkasi ajoissa, sillä vain 400 ensimmäistä lunastaa paikkansa.<br/>
@@ -30,29 +30,36 @@ class MainPage extends Component {
 
           <div id="ilmoittautuminen">
             <h2>Ilmoittautuminen</h2>
-            <p> Ilmoittautuminen avataan piakkoin
+            <p>Ilmoittaudu mukaan <a href="https://porvoonakilles.tapahtumiin.fi/">tästä</a>
+            </p>
+            <p>Maksutapana nyt myös liikunta- ja kulttuurisetelit.
+              Lähtöpaikalla maksuna käy ainoastaan käteinen.
             </p>
           </div>
           <div id="hinnat">
             <h2>Hinnat</h2>
+            <p>Ilmoittaudu ajoissa ja hyödynnä early-bird etusi!</p>
             <table className="price-table">
             <thead>
               <tr>
                 <th>Matka</th>
-                <th className="price">Ennen 1.8</th>
-                <th className="price">Alkaen 1.8</th>
+                <th className="price">Ennen 21.5</th>
+                <th className="price">Ennen 6.8</th>
+                <th className="price">Alkaen 6.8</th>
                 <th className="price">Käteinen lähtöpaikalla</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>110 km</td>
+                <td className="price">50 €</td>
                 <td className="price">60 €</td>
                 <td className="price">70 €</td>
                 <td className="price">70 € (tasaraha)</td>
               </tr>
               <tr>
                 <td>55 km</td>
+                <td className="price">40 €</td>
                 <td className="price">50 €</td>
                 <td className="price">60 €</td>
                 <td className="price">60 € (tasaraha)</td>

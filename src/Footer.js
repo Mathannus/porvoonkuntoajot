@@ -10,8 +10,6 @@ class Footer extends Component {
         <div>Järjestäjä: Porvoon Akilles Cycling</div>
         <div>Sähköposti: <a href="mailto:akilles.porvoonkuntoajot@gmail.com">akilles.porvoonkuntoajot@gmail.com</a></div>
         <div>Facebook: <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Porvoon-Akilles-cycling-644561912254259/">facebook.com/Porvoon-Akilles-cycling</a></div>
-        <div>Pankki: Aktia FI4140501950009588</div>
-
       </footer>
     </div>
   )
