@@ -30,6 +30,9 @@ class MainPage extends Component {
 
           <div id="ilmoittautuminen">
             <h2>Ilmoittautuminen</h2>
+            <p>
+              Ennakkoon ilmoittautuneiden lähtölistat julkaistu: <Link to="/lahtolista">Lähtölistat</Link>
+            </p>
             <p>Ilmoittaudu mukaan <a href="https://porvoonakilles.tapahtumiin.fi/">tästä</a>
             </p>
             <p>Maksutapana nyt myös liikunta- ja kulttuurisetelit.

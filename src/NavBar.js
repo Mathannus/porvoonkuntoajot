@@ -39,9 +39,7 @@ class NavBar extends Component {
 handleMenuItemTouchTap = (event, menuItem, index) => {
 //  event.preventDefault();
 
-  console.log(index);
   if(index < 4) {
-    console.log("index is less than 4")
     this.handleRequestClose();
   }
 
@@ -90,6 +88,7 @@ var styles = {
       onRequestClose={this.handleRequestClose}
     >
       <Menu onItemTouchTap={this.handleRequestClose}>
+        <MenuItem primaryText="2018"  containerElement={<Link to="/tulokset/2018"/>}/>
         <MenuItem primaryText="2017"  containerElement={<Link to="/tulokset/2017"/>}/>
         <MenuItem primaryText="2016" containerElement={<Link to="/tulokset/2016"/>}/>
       </Menu>
@@ -116,6 +115,7 @@ var styles = {
             <MenuItem primaryText="Tulokset"
               rightIcon={<ArrowDropRight />}
               menuItems={[
+                <MenuItem primaryText="2018" containerElement={<Link to="/tulokset/2018"/>}/>,
                 <MenuItem primaryText="2017" containerElement={<Link to="/tulokset/2017"/>}/>,
                 <MenuItem primaryText="2016" containerElement={<Link to="/tulokset/2016"/>}/>
               ]}
