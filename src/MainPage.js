@@ -10,9 +10,9 @@ class MainPage extends Component {
       <div className="mainPage">
         <div className="filler-div">&nbsp;</div>
         <div className="contentBox">
-          <h1>PORVOON KUNTOAJOT 12.8. 2018 KLO 10.00</h1>
+          <h1>PORVOON KUNTOAJOT 4.8. 2019 KLO 10.00</h1>
           Tervetuloa polkemaan idyllinen kuntoajo Itä-Uudenmaan kauniisiin jokilaaksoihin
-          ja kumpuileviin maalaismaisemiin sunnuntaina 12.8.2018
+          ja kumpuileviin maalaismaisemiin sunnuntaina 4.8.2019
 
           Ajajilta suurta kiitosta saaneissa Porvoon Kuntoajoissa on kaksi eri matkaa:
           <ul>
@@ -30,13 +30,15 @@ class MainPage extends Component {
 
           <div id="ilmoittautuminen">
             <h2>Ilmoittautuminen</h2>
+<!--
             <p>
               Ennakkoon ilmoittautuneiden lähtölistat julkaistu: <Link to="/lahtolista">Lähtölistat</Link>
             </p>
+-->
             <p>Ilmoittaudu mukaan <a href="https://porvoonakilles.tapahtumiin.fi/">tästä</a>
             </p>
             <p>Maksutapana nyt myös liikunta- ja kulttuurisetelit.
-              Lähtöpaikalla maksuna käy ainoastaan käteinen.
+              Lähtöpaikalla maksuna käy käteinen tai pankki- ja luottokortti.
             </p>
           </div>
           <div id="hinnat">
@@ -47,8 +49,8 @@ class MainPage extends Component {
               <tr>
                 <th>Matka</th>
                 <th className="price">Ennen 21.5</th>
-                <th className="price">Ennen 6.8</th>
-                <th className="price">Alkaen 6.8</th>
+                <th className="price">Ennen 22.7</th>
+                <th className="price">Alkaen 22.7</th>
                 <th className="price">Käteinen lähtöpaikalla</th>
               </tr>
             </thead>
